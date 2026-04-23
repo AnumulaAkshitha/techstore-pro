@@ -1,3 +1,6 @@
+// Anumula Akshitha | April 2026  
+// Personal Project - E-commerce Listing
+// Learning: Arrays, filter(), sort(), CSS Grid
 const products = [
     { id: 1, name: "Wireless Mouse Pro", price: 499, category: "Electronics", image: "https://images.unsplash.com/photo-1527814050087-3793815479db?w=400&h=300&fit=crop" },
     { id: 2, name: "Bluetooth Headphones ANC", price: 1499, category: "Electronics", image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop" },
