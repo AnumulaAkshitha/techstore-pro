@@ -1,5 +1,10 @@
 # TechStore Pro - E-Commerce Product Listing
 
+## Project Purpose
+Personal project built in April 2026 to practice JavaScript array methods, 
+DOM manipulation, filtering, sorting, and modern CSS Grid layouts.
+
+
 **Live Demo**: https://anumulaakshitha.github.io/techstore-pro/
 
 
