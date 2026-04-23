@@ -2,8 +2,6 @@
 
 **Live Demo**: https://anumulaakshitha.github.io/techstore-pro/
 
-## 🎯 Project Purpose
-Built for Amazon SDE Internship BGC verification. Demonstrates core JavaScript skills.
 
 ## ✨ Features
 - **20 Products** stored in JavaScript array of objects
@@ -20,7 +18,7 @@ Built for Amazon SDE Internship BGC verification. Demonstrates core JavaScript s
 - **Vanilla JavaScript** - ES6+ Array methods: filter(), sort(), map()
 - **No frameworks** - Pure JS to prove fundamentals
 
-## 🧪 BGC Test Cases
+##  Test Cases
 | Test | Action | Expected Result |
 | --- | --- | --- |
 | Dark Mode | Click 🌙/☀️ | Theme switches, persists on reload |
@@ -30,24 +28,9 @@ Built for Amazon SDE Internship BGC verification. Demonstrates core JavaScript s
 | Mobile | Open on phone | 2-column grid, stacked filters |
 | Hover | Hover product card | Card lifts 8px + purple border glow |
 
-## 📸 Screenshots
-*Add screenshots of all 6 tests here for BGC proof*
 
 ## 🚀 Deployment
 Hosted on GitHub Pages. Auto-deploys from `main` branch.
 
 ## 👨‍💻 Author
 **Anumula Akshitha**  
-Amazon SDE Intern Candidate  
-Built: April 2026
-
-## 📝 BGC Notes
-This project demonstrates:
-1. **Data Structures** - Array of 20 objects with id, name, price, category, image
-2. **Algorithms** - Filter O(n), Sort O(n log n), Search O(n)
-3. **DOM Manipulation** - Dynamic rendering with createElement, innerHTML
-4. **Event Handling** - addEventListener for input, change, click
-5. **State Management** - filteredProducts array, localStorage for theme
-6. **Modern CSS** - CSS variables, Grid, media queries, transitions
-
-**BGC Status: ✅ Verified**
