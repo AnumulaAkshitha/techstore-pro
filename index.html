@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore Pro | Premium Electronics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <rect width="32" height="32" rx="8" fill="url(#gradient)"/>
+                    <path d="M10 12L16 8L22 12V20C22 21.1 21.1 22 20 22H12C10.9 22 10 21.1 10 20V12Z" fill="white"/>
+                    <defs>
+                        <linearGradient id="gradient" x1="0" y1="0" x2="32" y2="32">
+                            <stop stop-color="#6366F1"/>
+                            <stop offset="1" stop-color="#8B5CF6"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span>TechStore Pro</span>
+            </div>
+            <div class="theme-toggle" id="theme-toggle">🌙</div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header class="hero">
+            <h1>Premium Tech Collection</h1>
+            <p>Curated electronics for modern professionals</p>
+        </header>
+
+        <div class="filters-card">
+            <div class="search-wrapper">
+                <svg class="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M9 17C13.4183 17 17 13.4183 17 9C17 4.58172 13.4183 1 9 1C4.58172 1 1 4.58172 1 9C1 13.4183 4.58172 17 9 17Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M19 19L14.65 14.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <input type="text" id="search-input" placeholder="Search products...">
+            </div>
+            
+            <div class="filter-group">
+                <select id="filter-price">
+                    <option value="all">All Prices</option>
+                    <option value="0-500">Under ₹500</option>
+                    <option value="500-1000">₹500 - ₹1,000</option>
+                    <option value="1000+">Over ₹1,000</option>
+                </select>
+
+                <select id="sort-by">
+                    <option value="default">Featured</option>
+                    <option value="price-low">Price: Low to High</option>
+                    <option value="price-high">Price: High to Low</option>
+                    <option value="name-az">Name: A to Z</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="results-bar">
+            <span id="product-count">20 products</span>
+            <span class="divider">•</span>
+            <span id="active-filters">Showing all</span>
+        </div>
+
+        <div id="products-grid" class="products-grid"></div>
+        <div id="no-results" class="no-results" style="display: none;">
+            <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                <circle cx="32" cy="32" r="30" stroke="currentColor" stroke-width="2" opacity="0.2"/>
+                <path d="M32 20V32L40 36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <h3>No products found</h3>
+            <p>Try adjusting your search or filters</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
